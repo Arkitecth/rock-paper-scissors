@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+img {
+    width: 15%;
+    padding: 0 20px;
+    height: auto;
+    transition: width 2s;
+}
+
+
+
+.game {           
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-content: center;
+    margin-top: 150px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+img:hover {
+    border: 4px solid white;
+    width: 16%;
+}
+
+.move-img {
+    display: flex;
+    justify-content: auto;
+}
+
+.score {
+    display: none;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+}
+
+.score h4 {
+    padding-top: 20px;
+}
